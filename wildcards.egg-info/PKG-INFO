@@ -1,0 +1,37 @@
+Metadata-Version: 1.1
+Name: wildcards
+Version: 0.0.1
+Summary: wildcards (fnmatch replacement) - Unix filename pattern matching
+Home-page: http://github.com/cancerhermit/wildcards.py/
+Author: cancerhermit
+Author-email: cancerhermit@gmail.com
+License: GPL
+Description: Installing
+        ----------
+        
+        ::
+        
+            pip install PyObjC # requires
+            pip install defaults
+        
+        Usage
+        -----
+        
+        ::
+        
+            from defaults import read, write
+            read("com.apple.iCal",'Disable all alarms')
+            >>> True
+            read("com.apple.iCal",'not existing',False) # default value
+            >>> False
+            write("com.apple.iCal",'Disable all alarms',False)
+        
+        
+Keywords: wildcards fnmatch filter
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities

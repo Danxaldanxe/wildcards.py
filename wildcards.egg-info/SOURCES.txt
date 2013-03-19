@@ -1,0 +1,11 @@
+MANIFEST.in
+README.html
+README.md
+README.rst
+description
+setup.py
+wildcards.py
+wildcards.egg-info/PKG-INFO
+wildcards.egg-info/SOURCES.txt
+wildcards.egg-info/dependency_links.txt
+wildcards.egg-info/top_level.txt
